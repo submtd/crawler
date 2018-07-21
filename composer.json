@@ -1,0 +1,19 @@
+{
+    "name": "submtd/crawler",
+    "description": "Class to help with crawling web pages",
+    "authors": [
+        {
+            "name": "Steve Harmeyer",
+            "email": "harmeyersteve@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/dom-crawler": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Submtd\\Crawler\\": "src/"
+        }
+    }
+}
